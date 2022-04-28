@@ -14,3 +14,8 @@ const romanMap = {
 export const intToRoman = (num) => {
   return romanMap[num.toString()];
 };
+
+// use function
+export const intToRoman2 = function (num) {
+  return romanMap[num.toString()];
+};
