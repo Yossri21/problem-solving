@@ -11,6 +11,6 @@ const romanMap = {
   10: 'X',
 };
 
-export const intToRoman = function (num) {
+export const intToRoman = (num) => {
   return romanMap[num.toString()];
 };
