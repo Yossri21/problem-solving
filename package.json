@@ -1,0 +1,19 @@
+{
+  "name": "Problem-solving",
+  "version": "1.0.0",
+  "description": "Practice problem solving",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "main": "index.js",
+  "author": "YGA",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "babel-jest": "^27.5.1",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^27.5.1"
+  }
+}
