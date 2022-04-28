@@ -10,7 +10,7 @@ const romanMap = {
   9: 'IX',
   10: 'X',
 };
-
+// not so good
 export const intToRoman = (num) => {
   return romanMap[num.toString()];
 };
